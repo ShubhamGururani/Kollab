@@ -1,0 +1,124 @@
+.capitalize{
+    text-transform: capitalize;
+}
+.nav-vs-light{
+    background-color: #8fcaec;
+    color: black !important;
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    .object{
+        width: 50px;
+        height: 30px;
+        background-image: url('https://image.flaticon.com/icons/png/128/616/616516.png');
+        background-repeat: no-repeat;
+        background-size: 40px 35px;
+    }
+    .object-3{
+        width: 50px;
+        height: 30px;
+        background-image: url('https://image.flaticon.com/icons/png/128/3026/3026293.png');
+        background-repeat: no-repeat;
+        background-size: 40px 35px;
+    }
+    
+}
+.nav-vs-dark{
+    background-color: #1a1a1d;
+    color: white !important;
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    .object{
+        width: 50px;
+        height: 20px;
+        background-image: url('https://image.flaticon.com/icons/png/128/1828/1828884.png');
+        background-repeat: no-repeat;
+        background-size: 10px 10px;
+    }
+    .object-3{
+        width: 50px;
+        height: 30px;
+        margin-top: -10px;
+        background-image: url('https://image.flaticon.com/icons/png/128/1246/1246476.png');
+        background-repeat: no-repeat;
+        background-size: 30px 30px;
+    }
+}
+
+#navbar{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+    .object-2{
+        width: 60px;
+        height: 30px;
+        padding-top: 10px;
+    }
+    #home{
+        display: inline-block;
+    } 
+    #theme-container{
+        height: 50px;
+        width: 70px;
+        position: relative;
+        cursor: pointer;
+        #sun{
+            position: absolute;
+            right:0px;
+        }
+        #moon{
+            position: absolute;
+            left:-10px;
+            top:20px;
+
+        }
+        .theme-icon{
+            display: inline;
+            z-index: 1;
+            top:10px;
+            transition: all 0.8s;
+            img{
+                display: inline;
+                width: 30px;
+                height: 30px;
+            }
+        }
+        #moon{
+            opacity: 0;
+            
+        }
+        #theme{
+            position: absolute;
+            top:15px;
+            left:15px;
+            width: 40px;
+            height: 20px;
+            background-color: white;
+            
+            border-radius: 4px;
+            #toggle{
+                width: 20px;
+                height: 20px;
+                display: inline-block;
+                background-color: orange;
+                
+                border-radius: 4px;
+                transition: margin-left 1s,background-color 1s;
+            }
+        }
+    }
+    
+    
+    
+}
+.pointer{
+    cursor: pointer;
+}
